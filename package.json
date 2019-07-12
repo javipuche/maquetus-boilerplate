@@ -1,0 +1,42 @@
+{
+  "name": "maquetus-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate destinado a generar el HTML, CSS, JS y los assets asociados para entregar una maquetación web.",
+  "scripts": {
+    "dev": "gulp --gulpfile node_modules/maquetus-boilerplate-builder/index.js --require @babel/register --server --watch",
+    "build": "gulp --gulpfile node_modules/maquetus-boilerplate-builder/index.js --require @babel/register build --production",
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maquetus-boilerplate.git"
+  },
+  "keywords": [
+    "gulp",
+    "webpack",
+    "boilerplate",
+    "maquetus"
+  ],
+  "author": "Javier Puche",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maquetus-boilerplate/issues"
+  },
+  "homepage": "https://github.com/maquetus-boilerplate#readme",
+  "browserslist": [
+    "last 2 versions",
+    "> 1%"
+  ],
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "standard-version": "^6.0.1"
+  },
+  "dependencies": {
+    "maquetus-boilerplate-builder": "^1.0.1"
+  }
+}
