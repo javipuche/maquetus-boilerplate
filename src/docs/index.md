@@ -12,11 +12,12 @@ Dentro de `src/docs` podremos encontrar un archivo llamado `config.json` donde v
 
 ### Opciones
 
-| Opción           | Tipo     | Descripción                                                                                                        |
-| ---------------- | -------- | ------------------------------------------------------------------------------------------------------------------ |
-| `previewStyles`  | `Array`  | Array de enlaces a estilos que se incluirán dentro de la vista previa del componente. Ej: `/assets/css/styles.css` |
-| `previewScripts` | `Array`  | Array de enlaces a scripts que se incluirán dentro de la vista previa del componente. Ej: `/assets/js/app.js`      |
-| `navigation`     | `Object` | Ordena los elementos de la navegación.                                                                             |
+| Opción           | Tipo     | Descripción                                                                                                         |
+| ---------------- | -------- | ------------------------------------------------------------------------------------------------------------------- |
+| `previewStyles`  | `Array`  | Array de enlaces a estilos que se incluirán dentro de la vista previa del componente. Ej: `/assets/css/styles.css`. |
+| `previewScripts` | `Array`  | Array de enlaces a scripts que se incluirán dentro de la vista previa del componente. Ej: `/assets/js/app.js`.      |
+| `logo`           | `String` | `src` para insertar un logo en la navegación.                                                                       |
+| `navigation`     | `Object` | Ordena los elementos de la navegación.                                                                              |
 
 ## Páginas
 
