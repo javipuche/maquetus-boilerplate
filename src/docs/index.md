@@ -6,8 +6,6 @@ pageTitle: 'Documentación'
 
 Todos los archivos referentes a la documentación y/o configuración están en `src/docs`.
 
-<hr>
-
 ## Configuración
 
 Dentro de `src/docs` podremos encontrar un archivo llamado `config.json` donde van las diferentes opciones.
@@ -19,8 +17,6 @@ Dentro de `src/docs` podremos encontrar un archivo llamado `config.json` donde v
 | `previewStyles`  | `Array`  | Array de enlaces a estilos que se incluirán dentro de la vista previa del componente. Ej: `/assets/css/styles.css` |
 | `previewScripts` | `Array`  | Array de enlaces a scripts que se incluirán dentro de la vista previa del componente. Ej: `/assets/js/app.js`      |
 | `navigation`     | `Object` | Ordena los elementos de la navegación.                                                                             |
-
-<hr>
 
 ## Páginas
 
