@@ -1,0 +1,7 @@
+{
+    "previewStyles": [ "/assets/css/styles.css" ],
+    "previewScripts": [ "/assets/js/app.js" ],
+    "navigation": {
+        "documentacion": 1
+    }
+}
